@@ -6,14 +6,12 @@ The database with over a million rows is explored by building complex SQL querie
 The database could have come from a real-world web application. It contains newspaper articles, as well as the web server log for the site. 
 The log has a database row for each time a reader loaded a web page. 
 
-
 The project drives following conclusions:
 -  Most popular three articles of all time.
 -  Most popular article authors of all time.
 -  Days on which more than 1% of requests lead to errors.
 
 ## How to Run
-
   PreRequisites:
 
   ```
@@ -21,7 +19,6 @@ The project drives following conclusions:
   VirtualBox
   Vagrant
   ```
-
 ## Setup Project:
 1. Download and install VirtualBox 
 1. Download and install Vagrant
@@ -45,8 +42,7 @@ The project drives following conclusions:
 2. Connect to database.
    - `psql -d news`
 
-The database includes three tables:
-    
+The database includes three tables:    
     ```
     The authors table includes information about the authors of articles.
     The articles table includes the articles themselves.
@@ -78,9 +74,8 @@ The database includes three tables:
     where (Total_Error::float*100)/Total_Views::float > 1.0 order by Percent desc;
     ```
 ## Running the queries:
-
-From the vagrant directory inside the virtual machine, run analysisProject.py to generate the analysis report:
-    * `$ python3 analysisProject.py`  
+    From the vagrant directory inside the virtual machine, run analysisProject.py to generate the analysis report:
+    - `$ python3 analysisProject.py`  
 
 ## Example Output:
     Reporting results...
