@@ -32,11 +32,11 @@ The project drives following conclusions:
 
 ## Launching the Virtual Machine:
 1. Launch the Vagrant VM inside Vagrant sub-directory in the downloaded fullstack-nanodegree-vm repository 
-   - `$ vagrant up`
+   * `$ vagrant up`
 2. Log into this using command
-   - `$ vagrant ssh`
+   * `$ vagrant ssh`
 3. Change directory to the /vagrant directory by typing 
-   - `$ cd /vagrant` and ls.
+   * `$ cd /vagrant` and ls.
 
 ## Setting up the database:
 1. Load the data in local database using the command:
@@ -80,10 +80,9 @@ The database includes three tables:
 ## Running the queries:
 
 From the vagrant directory inside the virtual machine, run analysisProject.py to generate the analysis report:
-    - `$ python3 analysisProject.py`  
+    * `$ python3 analysisProject.py`  
 
 ## Example Output:
-
     Reporting results...
 
     ```
