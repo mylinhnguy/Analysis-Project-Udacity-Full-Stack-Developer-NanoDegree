@@ -55,7 +55,6 @@ The database includes three tables:
 
 ## Creating Views:
 1.
-
     ```
     create or replace view popular_authors as select authors.name,
     count(articles.author) as views from articles, authors, log
@@ -63,7 +62,6 @@ The database includes three tables:
     group by authors.name order by views desc
     ```
 2.
-
     ```
     create or replace view popular_authors as select authors.name,
     count(articles.author) as views from articles, authors, log
@@ -71,7 +69,6 @@ The database includes three tables:
     group by authors.name order by views desc
     ```
 3.
-
     ```
     create or replace view log_errors as select Date, Total_Views, Total_Error,
     (Total_Error::float*100)/Total_Views::float as Percent from
