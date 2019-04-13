@@ -13,7 +13,6 @@ The project drives following conclusions:
 
 ## How to Run
   PreRequisites:
-
   ```
   Python3
   VirtualBox
@@ -43,6 +42,7 @@ The project drives following conclusions:
    - `psql -d news`
 
 The database includes three tables:    
+
     ```
     The authors table includes information about the authors of articles.
     The articles table includes the articles themselves.
