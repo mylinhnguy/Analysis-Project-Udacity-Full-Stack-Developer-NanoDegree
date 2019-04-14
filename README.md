@@ -75,7 +75,8 @@ The database includes three tables:
     ```
 ## Running the queries:
     From the vagrant directory inside the virtual machine, run analysisProject.py to generate the analysis report 
-    -  `python3 analysisProject.py`
+
+    `$ python3 analysisProject.py`
 
 ## Example Output:
     Reporting results...
