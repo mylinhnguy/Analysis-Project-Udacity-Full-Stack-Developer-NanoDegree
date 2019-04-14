@@ -74,7 +74,7 @@ The database includes three tables:
     where (Total_Error::float*100)/Total_Views::float > 1.0 order by Percent desc;
     ```
 ## Running the queries:
-    From the vagrant directory inside the virtual machine, run analysisProject.py to generate the analysis report:
+    From the vagrant directory inside the virtual machine, run analysisProject.py to generate the analysis report 
     -  `python3 analysisProject.py`
 
 ## Example Output:
